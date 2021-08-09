@@ -1,0 +1,80 @@
+article {
+  padding-inline: 30px;
+}
+
+header {
+  padding: 10px;
+  font-size: 2rem;
+}
+#navbar header {
+  text-align: center;
+  flex: 20%;
+  position: fixed;
+  width: 280px;
+  background: white;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+#navbar {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: #b9b9bb solid 2px;
+}
+
+#navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+#navbar a:hover {
+  color: #f1f1f1;
+}
+
+.main-section {
+  margin-left: 300px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+code {
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+#navbar li {
+  padding: 40px;
+  border-top: black solid 2px;
+}
+
+a,
+p,
+li {
+  font-size: 16px;
+  color: #4d4e53;
+}
+
+#navbar ul {
+  flex: 80%;
+  list-style: none;
+  padding: 0;
+}
